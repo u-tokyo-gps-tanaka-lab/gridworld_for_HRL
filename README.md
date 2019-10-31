@@ -14,7 +14,7 @@ under construction
 2. 実行  
 train_a3c_gym.pyを動かすことで実行できる.  
 実行時に引数を追加することで色々なオプションをつけて実行できる  
-a  
+  
 例(ゴールを1マス手前で隠す環境をlstmでやる)  
 
 `python train_a3c_gym.py 16 --logger-level=30 --hidden_dist=1 --lstm`
