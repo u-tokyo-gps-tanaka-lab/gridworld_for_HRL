@@ -3,7 +3,7 @@ under construction
 
 # Usage
 1. 必要なパッケージのインストール
-以下が著者の環境
+  以下が著者の環境
   - python 3.7.3
   - chainer 6.0.0
   - chainerrl 0.6.0
