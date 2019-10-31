@@ -4,12 +4,12 @@ under construction
 # Usage
 1. 必要なパッケージのインストール
 以下が著者の環境
-- python 3.7.3
-- chainer 6.0.0
-- chainerrl 0.6.0
-- numpy 1.16.2
-- gym 0.12.5
-- optuna 0.15.0
+  - python 3.7.3
+  - chainer 6.0.0
+  - chainerrl 0.6.0
+  - numpy 1.16.2
+  - gym 0.12.5
+  - optuna 0.15.0
 
 2. 実行
 train_a3c_gym.pyを動かすことで実行できる.
