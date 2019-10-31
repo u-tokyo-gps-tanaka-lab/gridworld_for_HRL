@@ -3,7 +3,8 @@ under construction
 
 # Usage
 1. 必要なパッケージのインストール
-  以下が著者の環境
+
+以下が著者の環境
   - python 3.7.3
   - chainer 6.0.0
   - chainerrl 0.6.0
@@ -13,10 +14,13 @@ under construction
 
 2. 実行
 train_a3c_gym.pyを動かすことで実行できる.
+
+
 実行時に引数を追加することで色々なオプションをつけて実行できる
 
 例(ゴールを1マス手前で隠す環境をlstmでやる)
-python train_a3c_gym.py 16 --logger-level=30 --hidden_dist=1 --lstm
+
+`python train_a3c_gym.py 16 --logger-level=30 --hidden_dist=1 --lstm`
 
 3. 結果の確認
 プログラムを動かすとresultファイルが作られるので, その下にいって確認する.
