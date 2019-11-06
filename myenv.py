@@ -231,12 +231,13 @@ class CliffGridEnv(gym.Env):
                 self.goal = self.t
                 self.mark_done = True
             elif self.hrl_env and not self.mode_1:
-                done = True
+                #done = True
+                self.reset()
                 self.mode_1 = not self.mode_1
             else:
                 r += 100
                 done = True
-        elif self.hidden and (self.dist[x][y] > self.hidden_dist): #todo 条件を直す, これだとhidden1の時にしか使えない
+        elif self.hidden and (self.dist[x][y] > self.hidden_dist):
             r -= 20
             done = True
         elif self.easy:
