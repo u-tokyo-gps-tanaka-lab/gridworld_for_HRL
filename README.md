@@ -1,5 +1,4 @@
 Game Programming Workshop 2019 投稿論文 「グリッド世界を用いた階層型強化学習の評価」 実験コード  
-under construction
 
 # Usage
 1. 必要なパッケージのインストール  
